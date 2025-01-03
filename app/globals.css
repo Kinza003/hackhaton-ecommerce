@@ -1,0 +1,31 @@
+@import '@fontsource/poppins/index.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply font-poppins
+}
+
+
+@layer utilities {
+
+  /* Class for the instagram section background image */
+  .bg-insta-image {
+    background-image: url('/assets/hero-sec6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-banner {
+    background-image: url('/assets/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+} 
+
+
+
+
