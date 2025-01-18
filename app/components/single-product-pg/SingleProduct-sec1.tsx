@@ -79,7 +79,7 @@ function SingleProductSection1({ images }: ImageType) {
       <div className="flex flex-col sm:flex-row gap-5">
         {/* Image Gallery */}
         <div className="flex flex-col px-2 max-h-96 sm:flex-row gap-3">
-          {/* Thumbnail Images Start */}
+          {/* Column Images Start */}
           <div className="flex sm:flex-col gap-2">
             {images.map((image, index) => (
               <Image
